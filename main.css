@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "font";
+  src: url("./assets/font/artifaktelement-regular-webfont.woff") format("woff");
+}
+
+h1 {
+  font-family: "font", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+ul,
+li,
+a,
+h2 {
+  font-family: "font", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+h2 {
+  font-size: 20px;
+  margin: 16px 0px 8px;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("./assets/images/arrow-down-filled-triangle-svgrepo-com.svg");
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+  border: 1.5px solid #000;
+}
+.dropdown-item {
+  border-bottom: 1px solid #000;
+  margin-top: 5px;
+}
+
+.dropdown-none {
+  border-bottom: none;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.nav-link {
+  font-size: 14px;
+}
+.nav-link:hover {
+  background-color: #eee;
+}
+.dropdown-toggle i {
+  color: #000;
+}
+.dropdown-item {
+  font-size: 14px;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("./assets/images/brand-portrait-banner-1580×640.jpg");
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid rgba(201, 201, 201, 0.605);
+  /* position: relative; */
+}
+.hero-2 {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/images/crisis-response-thumb-1248x550.jpg");
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid rgba(201, 201, 201, 0.605);
+  /* position: relative; */
+}
+.hero .hero-header-sm-2 {
+  margin-top: 100px;
+}
+.hero-2 .hero-primary-2 {
+  margin-top: 150px;
+}
+.hero .hero-primary {
+  margin-top: 100px;
+}
+.hero-header-sm {
+  font-size: 24px;
+}
+.hero-p {
+  font-size: 22px;
+}
+
+.second-section {
+  font-size: 28px;
+  font-weight: normal;
+}
+/* .second-section p {
+  font-size: 6px !important;
+} */
+.second-section-paragraph {
+  font-size: 18px;
+  font-weight: 300;
+}
+.firstButton {
+  font-family: "font", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.firstButton:hover {
+  border: 1px solid green !important;
+}
+
+.card-p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.read-more-btn {
+  font-family: "font";
+  font-weight: 300 !important;
+}
+.card-text {
+  font-family: "font";
+  font-weight: 300 !important;
+  font-size: 14px;
+}
